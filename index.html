@@ -11,10 +11,11 @@
                 font-family: "Karla", sans-serif;
             }
 
-            p {
+            .textos {
                 font-family: "Montserrat", sans-serif
-                weight: 800;
                 color: black;
+                font-weight: 400;
+                font-size: 20px;
             }
 
             .formatacao-subtitulo {
@@ -25,7 +26,6 @@
                 color: rgb(20, 33, 61);
                 background-color: rgb(252, 163, 17);
                 box-sizing: border-box
-                border-radius: 5%;
                 font-size: 40px
             }
 
@@ -34,13 +34,20 @@
             }
 
             .item-1 {
-                font-size: 30px;
+                font-size: 26px;
             }
             .item-2 {
-                font-size: 25px;
+                font-size: 23px;
             }
             .item-3 {
                 font-size: 20px;
+            }
+            .enfase {
+                color: 
+            }
+
+            .formatacao-link {
+                font-family: "Karla", sans-serif;
             }
         
         </style>
@@ -49,37 +56,37 @@
     <body>
         <h1 id=formatacao-titulo>Isabella Vasconcelos Joviano dos Santos</h1>
         <img src="foto_atual_Isabella.jpg" alt="Foto atualizada da Isabella Santos" width="250px">
-        <p>Olá, eu sou a <em id="enfase">Isabella</em>! Mineira de Belo Horizonte, apaixonada por viagens, por ciências e sempre buscando me desenvolver mais.</p>
+        <p class="textos">Olá, eu sou a <em id="enfase">Isabella</em>! Mineira de Belo Horizonte, apaixonada por viagens, por ciências e sempre buscando me desenvolver mais.</p>
         <hr>
-        <h2 class=formatacao-subtitulo>Indice</h2>
+        <h2 class=formatacao-subtitulo >Indice</h2>
         <ol>
-            <li><a href="#informacoes-pessoais">Quem sou eu</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#informacoes-adicionais">Hobbies</a></li>
-            <li><a href="#habilidades-em-desenvolvimento">Habilidades em desenvolvimento</a></li>
+            <li><a class="formatacao-link" href="#informacoes-pessoais">Quem sou eu</a></li>
+            <li><a class="formatacao-link" href="#habilidades">Habilidades</a></li>
+            <li><a class="formatacao-link" href="#informacoes-adicionais">Hobbies</a></li>
+            <li><a class="formatacao-link" href="#habilidades-em-desenvolvimento">Habilidades em desenvolvimento</a></li>
         </ol>
         <hr>
         <h2 class=formatacao-subtitulo id="informacoes-pessoais">Quem sou eu</h2>
-            <p>Eu nasci em Belo Horizonte, e renasci viajando pelo mundo. Na minha jornada já morei em <em>quatro países</em>, sempre em busca de novas experiências e vicências para a minha bagagem pessoal.
-            <br>Eu me formei em Engenharia Metalúrgica <strog>(UFMG)</strog> e estou cursando um mestrado em Engenharia de Superfícies e Materiais Avançados pela Manchester Metropolitan University <strong>(MMU)</strong>. 
+            <p class="textos">Eu nasci em Belo Horizonte, e renasci viajando pelo mundo. Na minha jornada já morei em <em>quatro países</em>, sempre em busca de novas experiências e vicências para a minha bagagem pessoal.
+            <br>Eu me formei em Engenharia Metalúrgica <strong>(UFMG)</strong> e estou cursando um mestrado em Engenharia de Superfícies e Materiais Avançados pela Manchester Metropolitan University <strong>(MMU)</strong>. 
             <br>Atualmente estou morando em São Paulo e comecei os meus estudos em Desenvolvimento de Software na Trybe com o objetivo de aliar o desenvolvimento web com a engenharia. 
             <br>Tenho grande interesse em trabalhar com soluções inovadores para grandes indústrias através da internet das coisas <em>(IoT)</em>.</p>
             <hr>
         <h2 class=formatacao-subtitulo id="habilidades">Habilidades</h2>
         <ul>
-            <li>Caracterização de materiais.</li>
-            <li>Conhecimento em processos metalúrgicos, com experiências na modelagem do refino secundário do aço e na simulação de eventos discretos da têmpera e revenimento através do <strong>Promodel</strong>.</li>
-            <li>Experiência com a síntese de grafeno em baixas temperaturas utilizando deposição química da fase vapor <strong>(PE-CVD)</strong>.</li>
-            <li>Experiência com a gestão de projetos.</li>
-            <li>Experiência com a otimização de processos utilizando a metodologia de design de experimentos <strong>(DOE)</strong>.</li>
-            <li>Colaborativa, proativa, dinâmica e entusiástica são as minhas principais qualidades.</li>
+            <li class="textos">Caracterização de materiais.</li>
+            <li class="textos">Conhecimento em processos metalúrgicos, com experiências na modelagem do refino secundário do aço e na simulação de eventos discretos da têmpera e revenimento através do <strong>Promodel</strong>.</li>
+            <li class="textos">Experiência com a síntese de grafeno em baixas temperaturas utilizando deposição química da fase vapor <strong>(PE-CVD)</strong>.</li>
+            <li class="textos">Experiência com a gestão de projetos.</li>
+            <li class="textos">Experiência com a otimização de processos utilizando a metodologia de design de experimentos <strong>(DOE)</strong>.</li>
+            <li class="textos">Colaborativa, proativa, dinâmica e entusiástica são as minhas principais qualidades.</li>
         </ul>
         <hr>
         <h2 class=formatacao-subtitulo id="informacoes-adicionais">Hobbies</h2>
         <ul>
-            <li>Amo música, gosto de tocar violão e ukulele nas horas vagas e já participei de três corais musicais.</li>
-            <li>Gosto de Yoga e artes marciais, como o Kung-Fu.</li>
-            <li>Sempre fui muito envolvida com trabalho voluntário. Já ajudei a reformar uma escola em um projeto dos Engenheiros da Alegria<a target="_blank" href="https://br.linkedin.com/company/engenheiros-da-alegria"> Sobre os Engenheiros da Alegria</a>,<br> e fui professora de matemática para alunos da rede pública pelo programa Voluntários do Saber<a target="_blank" href=https://voluntariadoempresarial.com.br/aprenda-com-o-projeto-voluntarios-do-saber-da-vallourec/> Matéria sobre os Voluntários do Saber</a></li>
+            <li class="textos">Amo música, gosto de tocar violão e ukulele nas horas vagas e já participei de três corais musicais.</li>
+            <li class="textos">Gosto de Yoga e artes marciais, como o Kung-Fu.</li>
+            <li class="textos"> Sempre fui muito envolvida com trabalho voluntário. Já ajudei a reformar uma escola em um projeto dos Engenheiros da Alegria<a class="formatacao-link" target="_blank" href="https://br.linkedin.com/company/engenheiros-da-alegria"> Sobre os Engenheiros da Alegria</a>,<br> e fui professora de matemática para alunos da rede pública pelo programa Voluntários do Saber<a class="formatacao-link" target="_blank" href=https://voluntariadoempresarial.com.br/aprenda-com-o-projeto-voluntarios-do-saber-da-vallourec/> Matéria sobre os Voluntários do Saber</a></li>
         </ul>
         <hr>
         <h2 class=formatacao-subtitulo id="habilidades-em-desenvolvimento">Habilidades em desenvolvimento</h2>
@@ -88,7 +95,7 @@
             <li class="item-2">Git & GitHub</li>
             <li class="item-3">Desenvolvimento Front-end: HTML</li>
          </ul> <br>
-         <a target="_blank" href="https://blog.betrybe.com/wp-content/uploads/2020/06/23-06-20-Programa-de-Formacao-da-Trybe-Turma-de-Setembro-8.pdf">Informações sobre o currículo da Trybe.</a>
+         <a class="formatacao-link" target="_blank" href="https://blog.betrybe.com/wp-content/uploads/2020/06/23-06-20-Programa-de-Formacao-da-Trybe-Turma-de-Setembro-8.pdf">Informações sobre o currículo da Trybe.</a>
         
         <hr>
 
