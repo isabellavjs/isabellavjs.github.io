@@ -1,0 +1,45 @@
+<style>
+            h1, h2 {
+                font-family: "Karla", sans-serif;
+            }
+
+            .textos {
+                font-family: "Montserrat", sans-serif
+                color: black;
+                font-weight: 400;
+                font-size: 20px;
+            }
+
+            .formatacao-subtitulo {
+                color: rgb(252, 163, 17);
+            }
+
+            #formatacao-titulo {
+                color: rgb(20, 33, 61);
+                background-color: rgb(252, 163, 17);
+                box-sizing: border-box
+                font-size: 40px
+            }
+
+            body {
+                background-color: rgb(229, 229, 229);
+            }
+
+            .item-1 {
+                font-size: 26px;
+            }
+            .item-2 {
+                font-size: 23px;
+            }
+            .item-3 {
+                font-size: 20px;
+            }
+            .enfase {
+                color: 
+            }
+
+            .formatacao-link {
+                font-family: "Karla", sans-serif;
+            }
+        
+        </style>
